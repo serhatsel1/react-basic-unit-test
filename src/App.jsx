@@ -1,5 +1,6 @@
 // App.jsx
 import "./App.css";
+import Async from "./components/Async";
 import TextDisplay from "./components/TextDisplay";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         facilis.
       </p>
       <TextDisplay />
+      <Async />
     </>
   );
 }
