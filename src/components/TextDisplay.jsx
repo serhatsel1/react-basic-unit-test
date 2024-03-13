@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Output from "./Output";
 
 const TextDisplay = () => {
   const [changeText, setChangeText] = useState(false);
@@ -11,7 +12,7 @@ const TextDisplay = () => {
     <>
       <h2>Hello World !</h2>
 
-      {!changeText ? <p>How are you !</p> : <p>Whatsapp niggas !</p>}
+      {!changeText ? <Output>How are you !</Output> : <Output>Whatsapp niggas !</Output>}
 
       <button onClick={changeHandler}>Change Text</button>
     </>
