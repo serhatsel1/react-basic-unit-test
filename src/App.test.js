@@ -4,7 +4,7 @@ import App from "./App";
 test("renders learn react h1 tag", () => {
   render(<App />);
 
-  const titleElement = screen.getByText(/Learn Reactt/i);
+  const titleElement = screen.getByText(/Learn React/i);
 
   expect(titleElement).toBeInTheDocument();
 });
